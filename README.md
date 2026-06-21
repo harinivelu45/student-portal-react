@@ -1,16 +1,113 @@
-# React + Vite
+# 🎓 Student Portal React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+Student Portal is a modern React JS web application developed using reusable components, React Router, and component-based architecture. The application provides a simple and user-friendly interface for managing and viewing student-related information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+https://student-portal-react-mu.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 GitHub Repository
 
-## Expanding the ESLint configuration
+https://github.com/harinivelu45/student-portal-react
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* Home Page
+* Students Page
+* Courses Page
+* Contact Page
+* React Router Navigation
+* Reusable Components
+* Props Usage
+* Component-Based Architecture
+* Responsive User Interface
+
+## 🛠️ Technologies Used
+
+* React JS
+* Vite
+* React Router DOM
+* JavaScript (ES6+)
+* CSS3
+* HTML5
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── Welcome.jsx
+│   ├── StudentCard.jsx
+│   ├── CourseCard.jsx
+│   └── ContactInfo.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Students.jsx
+│   ├── Courses.jsx
+│   └── Contact.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## ⚙️ Installation and Setup
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/harinivelu45/student-portal-react.git
+```
+
+### Navigate to Project Directory
+
+```bash
+cd student-portal
+```
+
+### Install Dependencies
+
+```bash
+npm install
+npm install react-router-dom
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## 🎯 Learning Outcomes
+
+* Understanding React Components
+* Working with React Router
+* Using Props and Component Reusability
+* Project Structure Organization
+* Deploying React Applications with Vercel
+* Version Control using Git and GitHub
+
+## 🌐 Deployment
+
+The project is successfully deployed on Vercel and accessible through the live demo link provided above.
+
+## 👩‍💻 Author
+
+**Harini Velmurugan**
+
+
+## 📜 License
+
+This project is created for educational and internship purposes.
+
